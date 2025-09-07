@@ -1,0 +1,33 @@
+{
+  "name": "roxiler-challenge",
+  "version": "1.0.0",
+  "description": "This project is built as part of the Roxiler Systems Internship Coding Challenge.  \r It is a full-stack web application that allows users to register, login, and submit ratings for stores.  \r The system supports three roles: 1.System Administrator  2.Normal User  3.Store Owner.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshis-create/roxiler-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sakshis-create/roxiler-challenge/issues"
+  },
+  "homepage": "https://github.com/sakshis-create/roxiler-challenge#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
